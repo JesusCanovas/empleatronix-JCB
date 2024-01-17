@@ -18,7 +18,7 @@ st.divider()
 # Widgets para controlar la apariencia del gráfico
 col = st.columns(3)
 color_s = col[0].color_picker("Elige un color para las barras", value='#3498db')
-show_name = col[1].toggle("Mostrar el nombre")
+show_name = col[1].toggle("Mostrar el nombre", value=1)
 show_salary = col[2].toggle("Mostrar el salario")
 
 # Contenido del gráfico
